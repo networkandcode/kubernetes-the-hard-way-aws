@@ -49,7 +49,7 @@ wget -q --show-progress \
   https://github.com/cloudflare/cfssl/releases/download/v${VERSION}/cfssljson_${VERSION}_linux_${ARCH}
 
 mv cfssl_${VERSION}_linux_${ARCH} cfssl
-mv cfssljson_${VERSION}_linux_${ARCH}
+mv cfssljson_${VERSION}_linux_${ARCH} cfssljson
 ```
 
 Make those binaries executable.
