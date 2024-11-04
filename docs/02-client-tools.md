@@ -39,7 +39,7 @@ Architecture:                       x86_64
 Model name:                         AMD EPYC 7763 64-Core Processor
 ```
 
-We could set the [version](https://github.com/cloudflare/cfssl/releases/tag/v1.6.5) and architecture as variable, download the tools and rename those.
+We could set the [version](https://github.com/cloudflare/cfssl/releases/tag/v1.6.5) and architecture as variables, download the tools and rename those.
 ```
 VERSION="1.6.5"
 ARCH="amd64"
